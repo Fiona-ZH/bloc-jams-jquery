@@ -11,3 +11,9 @@ const album = {
     { title: 'Magenta', duration: '374.22', soundFileUrl: 'assets/music/magenta.mp3' }
   ]
 };
+
+{
+  $('#album-title').text(album.title);
+  $('#album-cover-art').attr('src', album.albumArtUrl);
+  
+}
