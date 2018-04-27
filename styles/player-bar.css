@@ -87,7 +87,7 @@
 
 #volume-control input {
   float: left;
-  width: calc(100% - 40px);
+  width: calc(100% - 50px);
 }
 
 input[type=range] {
